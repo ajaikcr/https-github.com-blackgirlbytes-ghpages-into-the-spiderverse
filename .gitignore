@@ -1,0 +1,46 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+venv/
+pyvenv.cfg
+.venv/
+
+# Django
+docs/_build/
+staticfiles/
+media/
+db.sqlite3
+
+# OS related
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+staticfiles/
+/static/images/default_profile_pic.png
+/static/images/ecom-banner1.png
+# Keep original demo images if needed, but usually we ignore media
